@@ -8,3 +8,7 @@ compatibility_date = "2026-09-23"
 [assets]
 directory = "./public"
 not_found_handling = "single-page-application"
+
+routes = [
+  { pattern = "pm.sankethshetty.me/*", zone_name = "sankethshetty.me" },
+]
